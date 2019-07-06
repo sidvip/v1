@@ -14,7 +14,7 @@ body {
 .main-division {
     width: auto;
     height: auto;
-    position: absolute;
+    position: fixed;
 }
 
 #myImage {
