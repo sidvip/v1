@@ -1,52 +1,228 @@
 <html>
-    <head>
-        <title>
-            SVP - HomePage
-        </title>
-        
-    </head>
-    <body>
-        <table style="width: 150em;padding-left: 2em; padding-top: 2em">
-            <tr>
-                <td>
-                    <img src="images/sid.jpg" alt="My Image" style="width: 10em; height: 12em;">
-                    </td>
-                <td>
-                    <h2>Siddhartha Vibhu Pharswan</h2>
-                    <h3>
-                        Master of Technology<sup>*</sup> <br>
-                        Mechanical Engineering Department <br>
-                        Indian Institute of Technology, Kanpur <br>
 
-                    </h3>
-                </td>
-            </tr>
-        </table>
-        
-        <h1 style="padding-left: 1em">Introduction</h1>
-        
-        <p style="width: 80em; padding-left:2em">
-        I completed my Bachelor's degree in Mechanical Engineering from Dr. A.P.J. Abdul Kalam Technical University
-        (<a href="https://aktu.ac.in/" style="text-decoration:none; color: red">AKTU</a>) in 2015. I secured 3<sup>rd</sup> rank in 1<sup>st</sup> year of my
-        B.Tech in Mahamaya Technical University (Now A.P.J. Abdul Kalam Technical University) in the whole NCR region,
-        and 17<sup>th</sup> rank in final year of my B.Tech in Uttar Pradesh. In 2016, I joined Solid Mechanics and Design
-        speciali -sation in Mechcanical Engineering Deptt. of Indian Institute of Technology, Kanpur (<a href="https://www.iitk.ac.in" style="color:red; text-decoration:none;"
-        >IIT-K</a>) as a Master's student, where during my course I received the Academic Excellence Award 2016-17. As my Master's Thesis,
-        I worked on <a href="https://www.coursera.org/learn/machine-learning" style="text-decoration:none; color:green">Machine Learning</a> 
-        based <a href="https://www.coursera.org/lecture/modernrobotics-course5/grasping-and-manipulation-chapter-12-VWzAk" 
-        style="text-decoration:none;
-        color:green">robot grasping</a> under <a href="http://home.iitk.ac.in/~lbehera/" style="text-decoration:none;
-        color:blue">Prof. Laxmidhar Behera</a> (Deptt. of Electrical Engineering, IITK) 
-        and <a href="http://home.iitk.ac.in/~adutta/" style="text-decoration:none;color:blue">Prof. Ashish Dutta</a>
-         (Department of Mechanical Engineering).
-        </p>
+<head>
+    <title> SVP (HomePage)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./all_images/sidLogo.png">
+    <link rel="stylesheet" href="./all_css/mainPage.css" type="text/css">
+    <link rel="stylesheet" href="./all_css/navigationLinks.css" type="text/css">
+    <link rel="stylesheet" href="./all_css/contentRelated.css" type="text/css">
+    <link rel="stylesheet" href="./all_css/videoPane.css" type="text/css">
+    <link rel="stylesheet" href="./all_css/navBar.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-        <p style="width: 80em; padding-left:2em">
-         Currently, I am at Software Specialist designation at PTC Software India Private Limited, Pune. At PTC, my main work deals with the product
-         enhancement, coding (lots in Node.js, Java). I am here working in the Internet of Things (<a href="https://en.wikipedia.org/wiki/Internet_of_things"
-         style="color:red; text-decoration: none">IOT</a>) section for products like ThingWorx (<a href= "https://www.ptc.com/en/products/iot"
-         style="color:red; text-decoration: none">TWX</a>).    
-        </p>
-    
-    </body>
+<body>
+    <div class="animated-square"><span style="display: inline-flex !important">*******</span> God Knows Everything
+        <span>*******</span>
+    </div>
+    <div class="main-division">
+        <div class="left-nav-pane">
+            <div class="image-bg">
+                <img id="myImage" src="./all_images/sid.jpg">
+                <span id="nameStyle"> Siddhartha Vibhu Pharswan</span>
+            </div>
+            <!-- <hr style="width: 100%;"> -->
+            <a class="side-nav-headings" href="#aboutMe"><span id="intext">About Me</span></a>
+            <a class="side-nav-headings" href="#abg"><span id="intext">Academic Background</span></a>
+            <a class="side-nav-headings" href="#skills"><span id="intext">Skills</span></a>
+            <a class="side-nav-headings" href="#work"><span id="intext">Work Done So Far</span></a>
+            <a class="side-nav-headings" href="#wex"><span id="intext">Work Experience</span></a>
+            <!-- <hr style="width: 100%;"> -->
+            <div class="countTimer">
+                <span style="font-size: 20px; font-weight: bold; display: inline;"> <i>Visitors Count</i></span>
+                <a href="http://www.hitwebcounter.com" target="_blank">
+                    <img src="http://hitwebcounter.com/counter/counter.php?page=7113994&style=0001&nbdigits=5&type=page&initCount=0"
+                        title="http://www.hitwebcounter.com/htmltutorial.php"
+                        Alt="http://www.hitwebcounter.com/htmltutorial.php" align="middle" border="5px" width="90%"
+                        height="40px">
+                </a>
+            </div>
+        </div>
+
+        <div class="top-nav-pane">
+            <div class="button1 button-class"><div class="onButton1">ROBOT GRASPING TASK</div></div>
+            <div class="button2 button-class"><div class="onButton2">OLD PROJECTS</div></div>
+            <div class="button3 button-class"></div>
+            <a href="https://in.linkedin.com/in/svpharswan" class='fa fa-linkedin'></a>
+            <!-- <div class="button4 button-class"></div> -->
+            <div class="extreme-right"></div>
+        </div>
+        <div class="middle-pane">
+            <div class="inside-middle-pane">
+                <div id="aboutMe">
+                    <span class="dot"></span>
+                    <span id="contentHeading"> About Me </span>
+                    <span id="contentInsideHeading">
+                        Hi! , I am <span id="SidStyle">Siddhartha Vibhu Pharswan</span> (SVP in short). I am keen
+                        learner
+                        who loves to learn technology
+                        that helps human kind. My love to technology attracted me towards one and only popular stream
+                        <span class="general-bold">"Machine Learning"</span>. I loved it because of its applications in
+                        all the major areas which affects mankind
+                        very beautifully. One of its major application, I worked on is <span
+                            class="general-bold">"Robotics"</span>. I spent 1<sup>1</sup>/<sub>2</sub> years of my life
+                        during my PG programme to
+                        learn about Machine Learning and its visible part to Robotics. Ultimately, I could by God's
+                        grace make an Algorithm that helps the
+                        robot (manipulator) for picking and placing task.
+                    </span>
+                </div>
+
+                <div id="abg">
+                    <span class="dot"></span>
+                    <span id="contentHeading"> Academic Background </span>
+                    <!-- <span id="contentInsideHeading"></span> -->
+                    <span id="contentInsideHeading">
+                        Hi! Again. I started my journey of little success after, I secured <span
+                            class="general-bold">1<sup>st</sup></span> rank
+                        in my District while I was at High School. Then, I did my
+                        Undergraduate
+                        in Mechanical Engineering from
+                        <a href="https://aktu.ac.in/" style="text-decoration: none;">Dr. A. P. J. Abdul Kalam Technical
+                            University, India</a>. In my first year, I secured
+                        <span class="general-bold">3<sup>rd</sup></span> rank in NCR region (India) and in final year, I
+                        secured
+                        <span class="general-bold">17 <sup>th</sup></span> rank in
+                        the
+                        University. After I appeared in
+                        <a href="https://en.wikipedia.org/wiki/Graduate_Aptitude_Test_in_Engineering"
+                            style="text-decoration: none;">GATE-2018</a> and All
+                        India Rank <span class="general-bold">127</span> in Mechanical Engg. On that basis, I joined
+                        OLD-GOLD campus of
+                        (<a href="https://www.iitk.ac.in/" style="text-decoration: none; font-size: 22px;">IIT
+                            Kanpur</a>)
+                        for Post-Graduate programme (M.Tech).
+                        I wrote my Thesis work under the supervision of
+                        <a href="http://home.iitk.ac.in/~lbehera/" style="text-decoration: none; font-size: 22px;">Prof.
+                            Laxmidhar Behera (Deptt of Electrical Engg)</a> &
+                        <a href="http://home.iitk.ac.in/~adutta/" style="text-decoration: none; font-size: 22px;">Prof.
+                            Ashish Dutta (Deptt of
+                            Mechanical Engg) </a>
+                        There, I got Academic Excellence Award and also my Thesis work is going to publish in
+                        <a href="https://www.iros2019.org/"
+                            style="text-decoration: none; font-size: 22px;">IROS-2019.</a>
+                        <!--I am a keen Mechanical Engineer who has now involved in <span style="font-stretch: semi-expanded; font-style: italic">
+                                CODING STUFF</span>.  I started my journey of Coding when I was in 2<sup>nd</sup> semester of my OLD-GOLD campus 
+                                (<a href="https://www.iitk.ac.in/" style="text-decoration: none; font-size: 28px;">IIT Kanpur</a>).  -->
+                    </span>
+                </div>
+
+                <div id="skills">
+                    <span class="dot"></span>
+                    <span id="contentHeading"> Skills<sup><img style="width: 18px; height:18px"
+                                src="all_images/skill.jpg"></sup> </span>
+                    <span id="contentInsideHeading">
+                        Hi! Once Again. I wrote my first programme on <a href="https://in.mathworks.com/"
+                            style="text-decoration: none;">MATLAB<sup><img style="width: 18px; height:18px"
+                                    src="all_images/skill.jpg"></sup></a>
+                        and truly speaking for next <span class="general-bold">6</span> months, I could not leave it and
+                        I coded some of robots path planning
+                        algorithms and my starting code of <span class="general-bold">Neural Networks</span> on that
+                        only. After, when I
+                        jumped on real robot
+                        (<a href="https://www.universal-robots.com/" style="text-decoration: none;">Universal Robot 5
+                            and 10<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup></a>),
+                        <a href="https://developer.microsoft.com/en-us/windows/kinect"
+                            style="text-decoration: none;">Kinect<sup><img style="width: 18px; height:18px"
+                                    src="all_images/skill.jpg"></sup></a> and actual Machine
+                        Learning applications, I had to switch
+                        myself to <a href="https://www.python.org/" style="text-decoration: none;">PYTHON<sup><img
+                                    style="width: 18px; height:18px" src="all_images/skill.jpg"></sup></a>, where I come
+                        to
+                        know the power of Python
+                        in computers as well (<img src="all_images/wink.png" align="top"
+                            style="width: 20px; height: 20px;">). I used
+                        <a href="https://www.ros.org/" style="text-decoration: none;">ROS (Robot Operating
+                            System)<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup></a> to
+                        operate
+                        the robot.
+                        While during the way, I worked on <a href="https://opencv.org/"
+                            style="text-decoration: none;">OpenCV<sup><img style="width: 18px; height:18px"
+                                    src="all_images/skill.jpg"></sup></a>,
+                        <a href="http://pointclouds.org/" style="text-decoration: none;">PCL (Point Cloud
+                            Library)<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup></a>
+                        {for this
+                        I learnt a little
+                        <a href="https://isocpp.org/" style="text-decoration: none;">C++<sup><img
+                                    style="width: 18px; height:18px" src="all_images/skill.jpg"></sup></a>} and some of
+                        the
+                        famous Machine Learning frameworks
+                        like {<a href="https://www.tensorflow.org/" style="text-decoration: none;">TensorFlow</a>,
+                        <a href="https://pytorch.org/" style="text-decoration: none;">PyTorch</a>,
+                        <a href="https://keras.io/" style="text-decoration: none;">Keras (An Easy TF)</a>}.<sup><img
+                                style="width: 18px; height:18px" src="all_images/skill.jpg"></sup>.
+                        Now I am working on web technologies like {<a
+                            href="https://developer.mozilla.org/en-US/docs/Web" style="text-decoration: none;">HTML,
+                            CSS, Javascript (easily graspable)</a>}<sup><img style="width: 18px; height:18px"
+                                src="all_images/skill.jpg"></sup> for frontend applications and for backend currently, I
+                        work on {
+                        <a href="https://docs.oracle.com/javase/tutorial/" style="text-decoration: none;">JAVA</a> and
+                        <a href="https://nodejs.org/api/documentation.html" style="text-decoration: none;">Node.js</a>
+                        }.<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup>. I use some of
+                        other technologies like {
+                        <a href="https://www.mysql.com/" style="text-decoration: none;">MySQL</a> and
+                        <a href="https://www.nginx.com/" style="text-decoration: none;">Nginx</a>
+                        }.<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup>
+
+                    </span>
+                </div>
+
+                <div id="work">
+                    <span class="dot"></span>
+                    <span id="contentHeading"> Work Done So Far </span>
+                    <span id="contentInsideHeading">
+                        Hi! nice to see you again. For my interest puposes, I wrote some simple applications using
+                        multithreading, Socket-programming
+                        and SQL rules. <a href="https://github.com/sidvip/Chatting-Socket-Application"
+                            style="text-decoration: none;">Chatting Application</a> and
+                        <a href="https://github.com/sidvip/Movie-Ticket-Booking-System"
+                            style="text-decoration: none;">Ticket Booking CLI Tool ( MySQL based)</a> are the examples
+                        of
+                        those applications. I also contributed to <a href="https://www.npmjs.com/"
+                            style="text-decoration: none;
+                        font-family:'Courier New', Courier, monospace; font-size: 30px; font-weight: bold; font-stretch: semi-expanded;">npm</a> by creating
+                        <a href="https://oauth.net/2/" style="text-decoration: none;">OAuth-2.0</a> based
+                        <a href="https://www.npmjs.com/package/dowonloadbb-repo-oauth"
+                            style="text-decoration: none;">bitbucket repository downloader</a>, which uses
+                        <a href="https://expressjs.com/" style="text-decoration: none;">express</a> for local hosting. I
+                        also took an
+                        <a href="https://github.com/sidvip/ros_tutorials" style="text-decoration: none;"> ROS tutorial
+                            session </a> at AI workshop in IIT Kanpur.
+                    </span>
+                </div>
+
+                <div id="wex">
+                    <span class="dot"></span>
+                    <span id="contentHeading"> Work Experience </span>
+                    <span id="contentInsideHeading">
+                        I am currently working as <i>Software Specialist</i> in <a
+                            href="https://en.wikipedia.org/wiki/Internet_of_things"
+                            style="text-decoration: none">IOT</a> domain at <a href="https://www.ptc.com/"
+                            style="text-decoration: none;">
+                            PTC</a>, Pune Office. Here I am working on <a
+                            href="https://www.ptc.com/en/resources/iiot/product-brief/thingworx-platform"
+                            style="text-decoration: none;">Thingworx
+                        </a>subdomain :
+                        <a href="https://support.ptc.com/cs/help/thingworx_hc/thingworx_7.0_hc/index.jspx?id=MashupBuilder&action=show"
+                            style="text-decoration: none;"> Mashup Builder</a>- used to display the data and info using
+                        multiple types of gadgets,
+                        as an enhancement Engineer. I take care of part of a UI related bugs along with my team members.
+                        Earlier, before joining this team,
+                        I was working in Thingworx Flow Team (which has now become a subdomain of Thingworx), there I
+                        was creating connectors and solving bugs
+                        to enhance the product quality.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./scripts/imageAnimation.js" type="text/javascript"></script>
+    <script src="./scripts/reloadMainContent.js" type="text/javascript"></script>
+    <!-- <script src="./scripts/mainPageAnimationSimple.js" type="text/javascript"></script> -->
+    <script src="./scripts/videAnimation.js" type="text/javascript"></script>
+    <script src="./scripts/navLinkContentHandling.js" type="text/javascript"></script>
+
+</body>
+
 </html>

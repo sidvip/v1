@@ -1,0 +1,196 @@
+body {
+    margin: 0px;
+    background-image: repeating-radial-gradient(circle, rgb(116, 50, 50), rgb(201, 134, 175), rgb(197, 91, 150), cyan, purple);
+    scrollbar-face-color: lightsalmon;
+    scrollbar-arrow-color:salmon;
+    scroll-margin: 0px;
+    scrollbar-track-color: none;
+    scrollbar-shadow-color: lightpink;
+    scrollbar-highlight-color: salmon;
+    scrollbar-3dlight-color: none;
+    scrollbar-darkshadow-Color:lightsalmon;
+}
+
+.main-division {
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+#myImage {
+    border-radius: 120px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 261px;
+    height: 300px;
+}
+
+.image-bg {
+    background: url('../all_images/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+#nameStyle {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    font-style: oblique;
+    text-orientation: upright;
+    color: rgb(241, 117, 1);
+    text-shadow: 2px 1px rgb(208, 221, 18);
+}
+
+.animated-square {
+    position: relative;
+    -webkit-animation-name: rootAnimation;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite;
+    /* Safari 4.0 - 8.0 */
+    animation-name: rootAnimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    font-style: oblique;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@keyframes rootAnimation {
+    0% {
+        background: rgba(197, 42, 164, 0.2);
+        left: 25px;
+        top: 0px;
+    }
+
+    100% {
+        background: rgba(197, 42, 164, 0.2);
+        left: 82%;
+        top: 0px;
+    }
+}
+
+div.left-nav-pane {
+    float: left;
+    margin-top: 5px;
+    border-width: 2px;
+    border-style: ridge;
+    border-left-style: none;
+    border-bottom-style: none;
+    position: absolute;
+    width: 270px;
+    height: 96.8%;
+    text-align: center;
+    position: fixed;
+}
+
+div.top-nav-pane {
+    float: left;
+    margin-top: 5px;
+    background-image: repeating-radial-gradient(circle, brown, rgb(55, 107, 78), rgb(127, 86, 139));
+    width: 100%;
+    height: 40px;
+    margin-left: 271px;
+    border-style: ridge;
+    border-left-style: none;
+    border-right-style: none;
+    position: fixed;
+}
+
+.inside-top-nav-pane {
+    /* max-width: 100%; */
+}
+
+div.middle-pane {
+    margin-left: 270px;
+    padding: 2px;
+    margin-top: 50px;
+    width: auto;
+    background: linear-gradient(to bottom right, rgb(131, 238, 224), rgb(101, 167, 101));
+    /* position: fixed; */
+    /* overflow: scroll; */
+    /* float: left; */
+    /* border-style: ridge;
+    border-left-style: none;
+    border-right-style: none; */
+}
+
+.inside-middle-pane {
+    width: 100%;
+    overflow-y: scroll;
+    padding-bottom: 25px;
+    position: relative;
+    height: 620px;
+    max-height: 100%;
+    /* background: red; */
+}
+
+.inside-middle-pane::-webkit-scrollbar {
+    width: 1em;
+}
+
+.inside-middle-pane::-webkit-scrollbar-track {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-radius: 50px;
+}
+
+.inside-middle-pane::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle, rgba(236, 157, 10, 0.808), rgb(5, 145, 5), rgba(221, 3, 3, 0.918), rgb(3, 255, 255));
+    border-radius: 50px;
+    /* width: 100%; */
+    /* max-height: 20px; */
+}
+
+/* .inside-main-pane {
+    max-height: 100px;
+} */
+
+#myImage:hover {
+    box-shadow: 1px 1px 15px greenyellow;
+}
+
+.countTimer {
+    width: 100%;
+    height: 100%;
+}
+
+.general-bold {
+    font-size: 21;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Below code is taken from w3 schools tutorials 
+ (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons2)
+ */
+
+ .fa {
+    padding: 20px;
+    font-size: 35px;
+    transform: scale(0.70);
+    width: 30px;
+    /* height: 30px; */
+    text-align: center;
+    text-decoration: none;
+    margin-left:2px;
+    margin-top: -8px;
+    /* margin-bottom: 0px; */
+    position: inherit;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  

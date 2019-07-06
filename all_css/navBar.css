@@ -1,0 +1,117 @@
+.button1 {
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to top right, rgb(241, 200, 14), rgb(58, 99, 56));
+    border:0px;
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: double;
+    text-align: center;
+}
+
+.button2 {
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to top right, rgb(241, 200, 14), rgb(58, 99, 56));
+    border:0px;
+    margin-left: -20px;
+    display: inline-block;
+    position: relative;
+    z-index: 4;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: double;
+}
+
+.button3 {
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to top right, rgb(241, 200, 14), rgb(58, 99, 56));
+    border:0px;
+    margin-left: -20px;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: double;
+    position: relative;
+    z-index: 3;
+}
+
+.button4 {
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(to top right, rgb(241, 200, 14), rgb(58, 99, 56));
+    border:0px;
+    margin-left: -20px;
+    position: relative;
+    z-index: 2;
+    display: inline-block;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-style: double;
+}
+
+.button-class {
+    cursor: pointer;
+}
+
+.button-class:hover {
+    box-shadow:  10px 10px 40px rgb(245, 241, 8);
+    transition-duration: 4s;
+    width:230px;
+}
+
+.button-class:hover  > .onButton1 {
+    color: greenyellow;
+    margin-top: 6px;
+    margin-left: 5px;
+}
+
+.button-class:hover > .onButton2 {
+    color: greenyellow;
+    margin-top: 6px;
+    margin-left: 18px;
+}
+
+.onButton1 {
+    position: absolute;
+    color: rgb(252, 56, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 18px aquamarine;
+    font-style: bold;
+    font-size: 15px;
+    margin-top: 3px;
+    /* text-align: center; */
+}
+
+.onButton2 {
+    position: absolute;
+    color: rgb(240, 9, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 5px 5px 18px aquamarine;
+    font-style: bold;
+    font-size: 15px;
+    margin-left: 16px;
+    margin-top: 15px;
+    margin-top: 3px;
+    /* text-align: center; */
+}
+
+.extreme-right {
+    position: absolute;
+    display: inline-block;
+    color: rgb(47, 255, 151);
+    margin-right: 0px;
+    margin-left:  200px;
+    background-color: inherit;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(0.4px);
+    width:auto;
+    top:2px;
+    height: 85%;
+    font-size:28px;
+    text-align: center;
+}

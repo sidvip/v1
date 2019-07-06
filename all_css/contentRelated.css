@@ -1,0 +1,43 @@
+#contentHeading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: brown;
+    font-size:  35px;
+    list-style: circle;
+    list-style-type: square;
+    position: inherit;
+}
+
+#contentInsideHeading {
+    text-align: justify;
+    color: black;
+    display: block;
+    margin-left: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#contentInsideHeading:hover {
+    cursor: grab;
+    /* color: cornflowerblue; */
+}
+
+#SidStyle {
+    color: chocolate;
+    font-size: 22px;
+}
+
+.dot {
+    height: 15px;
+    width:15px;
+    transform: rotateZ(45deg);
+    background-color: brown;
+    display: inline-block;
+    margin:  5px;
+    margin-left: 18px;
+    position: static;
+}
+
