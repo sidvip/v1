@@ -37,6 +37,7 @@
 }
 
 .skills-gallery:hover {
+    cursor: grab;
     box-shadow: 15px 15px 15px lightgoldenrodyellow;
 }
 
