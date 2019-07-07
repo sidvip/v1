@@ -113,7 +113,62 @@ var entireMiddlePane = `<div class="inside-middle-pane">
         <a href="https://www.mysql.com/" style="text-decoration: none;">MySQL</a> and
         <a href="https://www.nginx.com/" style="text-decoration: none;">Nginx</a>
         }.<sup><img style="width: 18px; height:18px" src="all_images/skill.jpg"></sup>
-
+  <div class="skills-gallery">
+                                <a href="https://in.mathworks.com/help/matlab/">
+                                    <img class="image-decoration" src="all_images/matlab.png">
+                                </a>
+                                <a href="https://www.python.org/">
+                                    <img class="image-decoration" src="all_images/python.jpg">
+                                </a>
+                                <a href="https://www.ros.org/">
+                                    <img class="image-decoration" src="all_images/c++.png">
+                                </a>
+                                <a href="https://opencv.org/">
+                                    <img class="image-decoration" src="all_images/opencv.png">
+                                </a>
+                                <a href="https://isocpp.org/">
+                                    <img class="image-decoration" src="all_images/ros.png">
+                                </a>
+                                <a href="http://pointclouds.org/">
+                                    <img class="image-decoration" src="all_images/pcl.png">
+                                </a>
+                                <a href="https://www.tensorflow.org/">
+                                    <img class="image-decoration" src="all_images/tensorflow.png">
+                                </a>
+                                <a href="nhttps://pytorch.org/">
+                                    <img class="image-decoration" src="all_images/pytorch.png">
+                                </a>
+                                <a href="https://keras.io/">
+                                    <img class="image-decoration" src="all_images/keras.jpg">
+                                </a>
+                                <a href="https://www.java.com/en/">
+                                    <img class="image-decoration" src="all_images/java.png">
+                                </a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
+                                    <img class="image-decoration" src="all_images/html.png">
+                                </a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
+                                    <img class="image-decoration" src="all_images/css.png">
+                                </a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
+                                    <img class="image-decoration" src="all_images/js.png">
+                                </a>
+                                <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">
+                                    <img class="image-decoration" src="all_images/rest.png">
+                                </a>
+                                <a href="https://nodejs.org/en/docs/">
+                                    <img class="image-decoration" src="all_images/node.png">
+                                </a>
+                                <a href="https://www.nginx.com/">
+                                    <img class="image-decoration" src="all_images/nginx.png">
+                                </a>
+                                <a
+                                    href="https://azure.microsoft.com/en-in/overview/what-is-azure/?&OCID=AID2000081_SEM_RjuxwMBy&lnkd=Google_Azure_Brand&dclid=CNWwpP_FouMCFVsvjgodumwJIA"><img
+                                        class="image-decoration" src="all_images/azure.jpg"></a>
+                                <a href="https://docs.microsoft.com/en-us/azure/azure-functions/">
+                                    <img class="image-decoration" src="all_images/functionapp.jpg">
+                                </a>
+                            </div>
     </span>
 </div>
 
