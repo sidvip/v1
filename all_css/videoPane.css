@@ -1,3 +1,24 @@
+.video-table {
+    width: 80%;
+    margin-left: 50px;
+}
+
+td {
+    padding: 20px;
+}
+
+.table-heading {
+    text-align: center;
+    padding: 15px;
+ }
+
+ .video-support-pane:hover {
+    background: lightgoldenrodyellow;
+    border-radius: 600px;
+    transition: 4s ease;
+    cursor: pointer;   
+}
+
 .video-pane {
     margin: 25px;
     margin-left: 60px;
@@ -5,21 +26,24 @@
     padding-top: 2px;
     padding-bottom: 2px;
     width: 370px;
-    height: 260px;
+    height: 270px;
     text-align: center;
     border-radius: 60px;
     display: inline-block;
     position: static;
 }
 
-.video-pane:hover {
-    box-shadow: 5px 5px 5px lightcoral;
+.video-support-pane:hover > .video-pane{
+    box-shadow: 10px 10px 15px lightcoral;
     transform: translate(300px, -20px) scale(1.8);
     transition-delay: 2s;
-    /* transform: skew(1deg, 1deg) scale(1.4); */
-    transition: 4s;
+    /* transform: skew(1deg, 1deg) scale(1.1); */
+    transition: 4s ease;
+    z-index: 20px;
+    position: sticky;
     /* position: inherit; */
 }
+
 .algo-pane {
     margin: 25px;
     margin-left: 60px;
@@ -27,19 +51,18 @@
     padding-top: 2px;
     padding-bottom: 2px;
     width: 370px;
-    height: 260px;
-
+    height: 270px;
     text-align: center;
     border-radius: 60px;
     display: inline-block;
     position: static;
 }
 
-.algo-pane:hover {
+.video-support-pane:hover > .algo-pane {
     box-shadow: 5px 5px 5px lightcoral;
     transform: translate(-300px, -20px) scale(1.8);
     transition-delay: 2s;
     /* transform: skew(1deg, 1deg) scale(1.4); */
-    transition: 4s;
+    transition: 4s ease;
     /* position: inherit; */
 }

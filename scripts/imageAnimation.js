@@ -1,12 +1,12 @@
 var mustClear;
 
 function imageRotate90deg() {
-    document.getElementById('myImage').style.transform = 'rotateY(90deg)';
+    document.getElementById('myImage').style.transform = 'rotateY(90deg) scale(0.72)';
     document.getElementById('myImage').style.transitionDuration = '4s';
 }
 
 function imageRotate180deg() {
-    document.getElementById('myImage').style.transform = 'rotateY(180deg)';
+    document.getElementById('myImage').style.transform = 'rotateY(180deg)  scale(0.72)';
     document.getElementById('myImage').style.transitionDuration = '4s';
 }
 
@@ -31,11 +31,11 @@ function ImageHoverCallback(e) {
 }
 
 function mainImageMouseInAnimation () {
-    document.getElementById('myImage').addEventListener("mouseenter", ImageHoverCallback);
+    document.getElementsByClassName('image-bg')[0].addEventListener("mouseenter", ImageHoverCallback);
 }
 
 function mainImageMouseOutAnimation () {
-    document.getElementById('myImage').addEventListener("mouseleave", ImageHoverCallback);
+    document.getElementsByClassName('image-bg')[0].addEventListener("mouseleave", ImageHoverCallback);
     if (mustClear != undefined) {
         clearTimeout(mustClear);
     }

@@ -1,14 +1,16 @@
 body {
     margin: 0px;
-    background-image: repeating-radial-gradient(circle, rgb(116, 50, 50), rgb(201, 134, 175), rgb(197, 91, 150), cyan, purple);
+    width: auto;
+    height: auto;
+    background-image: repeating-radial-gradient(circle, rgb(199, 182, 182), rgb(201, 134, 175), rgb(197, 91, 150), rgb(75, 173, 173), purple);
     scrollbar-face-color: lightsalmon;
-    scrollbar-arrow-color:salmon;
+    scrollbar-arrow-color: salmon;
     scroll-margin: 0px;
     scrollbar-track-color: none;
     scrollbar-shadow-color: lightpink;
     scrollbar-highlight-color: salmon;
     scrollbar-3dlight-color: none;
-    scrollbar-darkshadow-Color:lightsalmon;
+    scrollbar-darkshadow-Color: lightsalmon;
 }
 
 .main-division {
@@ -19,17 +21,20 @@ body {
 
 #myImage {
     border-radius: 120px;
-    margin-top: 5px;
+    margin-top: 1px;
     margin-left: 5px;
     margin-right: 5px;
     width: 261px;
     height: 300px;
+    transform: scale(0.7);
+    position: relative;
+    top: -30px;
 }
 
 .image-bg {
     background: url('../all_images/back.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 500px;
+    background-size: 100% 300px;
 }
 
 #nameStyle {
@@ -37,15 +42,17 @@ body {
     font-size: 32px;
     font-style: oblique;
     text-orientation: upright;
-    color: rgb(241, 117, 1);
-    text-shadow: 2px 1px rgb(208, 221, 18);
+    color: rgb(241, 237, 1);
+    position: relative;
+    top: -80px;
+    text-shadow: -2px -1px rgb(208, 221, 18);
 }
 
 .animated-square {
     position: relative;
     -webkit-animation-name: rootAnimation;
     /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s;
+    -webkit-animation-duration: 1s;
     /* Safari 4.0 - 8.0 */
     -webkit-animation-iteration-count: infinite;
     /* Safari 4.0 - 8.0 */
@@ -57,18 +64,18 @@ body {
     font-style: oblique;
     font-size: 15px;
     font-weight: bold;
+    color: chartreuse;
+    background: rgba(197, 42, 164, 0.2);
+    box-shadow: 10px 10px 15px rgb(116, 50, 50);
 }
 
 @keyframes rootAnimation {
     0% {
-        background: rgba(197, 42, 164, 0.2);
-        left: 25px;
+        left: 10%;
         top: 0px;
     }
-
     100% {
-        background: rgba(197, 42, 164, 0.2);
-        left: 82%;
+        left: 70%;
         top: 0px;
     }
 }
@@ -80,11 +87,9 @@ div.left-nav-pane {
     border-style: ridge;
     border-left-style: none;
     border-bottom-style: none;
-    position: absolute;
     width: 270px;
     height: 96.8%;
     text-align: center;
-    position: fixed;
 }
 
 div.top-nav-pane {
@@ -148,7 +153,7 @@ div.middle-pane {
     max-height: 100px;
 } */
 
-#myImage:hover {
+.image-bg:hover>#myImage {
     box-shadow: 1px 1px 15px greenyellow;
 }
 
@@ -163,12 +168,18 @@ div.middle-pane {
     font-style: italic;
 }
 
+.below-block {
+    width: auto;
+    position: relative;
+    top: -75px;
+}
 
 /* Below code is taken from w3 schools tutorials 
  (https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_buttons2)
+ after I made some modifications.
  */
 
- .fa {
+.fa {
     padding: 20px;
     font-size: 35px;
     transform: scale(0.70);
@@ -176,15 +187,15 @@ div.middle-pane {
     /* height: 30px; */
     text-align: center;
     text-decoration: none;
-    margin-left:2px;
+    margin-left: 2px;
     margin-top: -8px;
     /* margin-bottom: 0px; */
-    position: inherit;
+    position: absolute;
     cursor: pointer;
     border-radius: 50%;
-  }
+}
 
-  
+
 .fa:hover {
     opacity: 0.7;
 }
@@ -192,5 +203,4 @@ div.middle-pane {
 .fa-linkedin {
     background: #007bb5;
     color: white;
-  }
-  
+}

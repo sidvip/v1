@@ -5,7 +5,7 @@
     font-size:  35px;
     list-style: circle;
     list-style-type: square;
-    position: inherit;
+    /* position: inherit; */
 }
 
 #contentInsideHeading {
