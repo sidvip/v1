@@ -1,0 +1,56 @@
+.skills-gallery::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.2em;
+}
+
+.skills-gallery::-webkit-scrollbar-track {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+    border-radius: 100px;
+}
+
+.skills-gallery::-webkit-scrollbar-thumb {
+    background: radial-gradient(circle, rgba(236, 157, 10, 0.808), rgb(5, 145, 5), rgba(221, 3, 3, 0.918), rgb(3, 255, 255));
+    border-radius: 500px;
+    width: 100%;
+    /* width: 70%; */
+    visibility: hidden;
+    max-height: 20px;
+}
+
+
+
+.skills-gallery {
+    border: 2px;
+    border-style: double;
+    width: 90%;
+    text-align: center;
+    margin-left: 0px;
+    border-color: gray;
+    border-radius: 50px;
+    background: repeating-radial-gradient(circle, rgb(228, 158, 27), rgb(134, 41, 41), purple, green);
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin: 40px;
+    position: absolute;
+    scroll-behavior: smooth;
+}
+
+.skills-gallery:hover {
+    box-shadow: 15px 15px 15px lightgoldenrodyellow;
+}
+
+.image-decoration {
+    width: 100px;
+    height: 100px;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 20px;
+}
+
+.image-decoration:hover {
+    transform: scale(1.25);
+    transition: 2s;
+    box-shadow: 0px 0px 15px yellow;
+    z-index: 50px;
+}
