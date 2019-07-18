@@ -18,9 +18,9 @@ function addVideoRobotGrasping() {
             <td class="table-heading"><span id="contentHeading"> Kinect View </span></td>
         </tr>
         <tr>
-            <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/fLyEEp4vjBo?autoplay=1"
+            <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/fLyEEp4vjBo?autoplay=0"
             frameborder="0" allowfullscreen></iframe></td>
-            <td class="video-support-pane"><iframe class="algo-pane" src="https://www.youtube.com/embed/Wv0Vq-z6vt0?autoplay=1"
+            <td class="video-support-pane"><iframe class="algo-pane" src="https://www.youtube.com/embed/Wv0Vq-z6vt0?autoplay=0"
             frameborder="0" allowfullscreen></iframe></td>
         </tr>
         <tr>
@@ -78,9 +78,9 @@ function addProjectVideo() {
     <td class="table-heading"><span id="contentHeading"> Configuration Space </span></td>
     </tr>
     <tr>
-    <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/wIY0vmXf3BE?autoplay=1"
+    <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/wIY0vmXf3BE?autoplay=0"
     frameborder="0" allowfullscreen></iframe></td>
-    <td class="video-support-pane"><iframe class="algo-pane" src="https://www.youtube.com/embed/8lvCUK3cBWA?autoplay=1"
+    <td class="video-support-pane"><iframe class="algo-pane" src="https://www.youtube.com/embed/8lvCUK3cBWA?autoplay=0"
     frameborder="0" allowfullscreen></iframe></td>
     </tr>
     </table>
@@ -125,11 +125,7 @@ function addProjectVideo() {
         algorithm, target and robot has force of attraction while the robot and obstacle has force of repulsion. If these two forces come
         in line then the problem of local minima occurs.</span>
     <table class="video-table">
-    <tr>
-    <td class="table-heading"><span id="contentHeading"> Manipulator Workspace </span></td>
-    <td class="table-heading"><span id="contentHeading"> Configuration Space </span></td>
-    </tr>
-    <tr>
+   <tr>
     <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/ZAFhE9vPAZY?autoplay=0"
     frameborder="0" allowfullscreen></iframe></td>
     <td class="video-support-pane"><iframe class="algo-pane" src="https://www.youtube.com/embed/B1bwDn2GzIc?autoplay=0"
@@ -153,10 +149,6 @@ function addProjectVideo() {
         Due to poor selection a high amount of jerks are encountered by robot in workspace.
         </span>
     <table class="video-table">
-    <tr>
-    <td class="table-heading"><span id="contentHeading"> Manipulator Workspace </span></td>
-    <td class="table-heading"><span id="contentHeading"> Configuration Space </span></td>
-    </tr>
     <tr>
     <td class="video-support-pane"><iframe class="video-pane" src="https://www.youtube.com/embed/6AuAL4lhkGk?autoplay=0"
     frameborder="0" allowfullscreen></iframe></td>

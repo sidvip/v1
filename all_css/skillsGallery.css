@@ -9,15 +9,13 @@
 }
 
 .skills-gallery::-webkit-scrollbar-thumb {
-    background: radial-gradient(circle, rgba(236, 157, 10, 0.808), rgb(5, 145, 5), rgba(221, 3, 3, 0.918), rgb(3, 255, 255));
+    background: radial-gradient(circle, rgba(236, 157, 10, 0.808), rgb(5, 145, 5), rgba(221, 3, 3, 0.918), rgba(236, 157, 10, 0.808), );
     border-radius: 500px;
     width: 100%;
     /* width: 70%; */
     visibility: hidden;
     max-height: 20px;
 }
-
-
 
 .skills-gallery {
     border: 2px;
