@@ -8,8 +8,8 @@ I am <em>Siddhartha Vibhu Pharswan</em>, a Mechanical Engineer by birth but a So
 
 
 <div style="display: grid; grid-template-columns: 50px 50px 50px 50px; column-gap:10px; justify-content: center;">
-    <a href='sidvip.github.io'><img src='https://cdn-icons-png.flaticon.com/512/3308/3308395.png' style='width: 20px;margin-right:10px;'></a>
-    <a href='https://www.linkedin.com/in/svpharswan/'><img src='https://cdn-icons-png.flaticon.com/512/220/220201.png' style='width: 20px;margin-right:10px;'></a>
-    <a href='https://instagram.com/_sidvip_'><img src='https://cdn-icons-png.flaticon.com/512/2111/2111463.png' style='width: 20px;margin-right:10px;'></a>
+    <a href='sidvip.github.io'><img src='https://cdn-icons-png.flaticon.com/512/3308/3308395.png' style='width: 20px;margin-right:10px;'></a>&nbsp;&nbsp;&nbsp;
+    <a href='https://www.linkedin.com/in/svpharswan/'><img src='https://cdn-icons-png.flaticon.com/512/220/220201.png' style='width: 20px;margin-right:10px;'></a>&nbsp;&nbsp;&nbsp;
+    <a href='https://instagram.com/_sidvip_'><img src='https://cdn-icons-png.flaticon.com/512/2111/2111463.png' style='width: 20px;margin-right:10px;'></a>&nbsp;&nbsp;&nbsp;
     <a href='https://www.youtube.com/channel/UCIDKtpEWBQzamdfF5TpOaLw'><img src='https://cdn-icons-png.flaticon.com/512/1384/1384060.png' style='width: 20px;margin-right:10px;'></a>
 </div>
